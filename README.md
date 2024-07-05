@@ -1,10 +1,62 @@
-# Getting Started with Create React App
+# Todo List App
+### Description
+This is a simple Todo List application built with React. It allows users to add, edit, and delete tasks. The app is designed to help users manage their daily tasks effectively.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add new tasks
+Edit existing tasks
+Delete tasks
 
-## Available Scripts
+### Demo
+You can check out the live demo of the app here.
 
-In the project directory, you can run:
+# Installation
+To run this project locally, follow these steps:
+
+### Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/Sushanthgoud12/TodosApp-React.git
+cd TodosApp
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app should now be running on http://localhost:3000.
+
+### Usage
+
+### Add a task:
+Type the task in the input field and press Enter or click the "Add" button.
+
+### Edit a task:
+Click the "Edit" button next to the task, make your changes, and press Enter or click the "Save" button.
+
+### Delete a task:
+Click the "Delete" button next to the task you want to remove.
+
+# Technologies Used
+React
+HTML
+CSS
+JavaScript
+Contributing
+Contributions are welcome! If you have any improvements or suggestions, please feel free to submit a pull request. Follow these steps:
+
+# Fork the repository
+Create a new branch (git checkout -b feature/your-feature-name)
+Make your changes
+Commit your changes (git commit -m 'Add some feature')
+Push to the branch (git push origin feature/your-feature-name)
+Open a pull request
+
 
 ### `npm start`
 
@@ -28,16 +80,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
