@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  
+}
+
+.container{
+  background-image: url("https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg");
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  text-align: center;
+
+
+}
+.heading{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}

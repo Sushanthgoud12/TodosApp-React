@@ -1,0 +1,46 @@
+
+.bg-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form{
+    background-color: #1d2120b1;
+    width: 50%;
+    margin: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+input{
+    height: 30px;
+    width: 70%;
+    padding: 15px;
+    margin-right: 30px;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 5px;
+    color: gray;
+}
+
+.add-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border:0;
+    color:black;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:1200px){
+
+
+    .add-btn{
+        margin: 30px;
+        position: relative;
+    }
+}

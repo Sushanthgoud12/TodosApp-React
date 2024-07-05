@@ -1,0 +1,54 @@
+.list-container {
+    background-color: #f8f9fa; 
+    position:absolute;
+    width: 50%;
+    text-align: center;
+    padding:15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(239, 226, 208);
+    margin: 5px;
+    
+}
+
+.btn{
+    background-color: transparent;
+}
+
+.edit-btn,.delete-btn{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+    margin:5px;
+
+}
+.delete-img{
+    height: 30px;
+    width: 30px;
+}
+
+.edit-img{
+    height: 25px;
+    width: 25px;
+}
+.save-btn{
+    color: black;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
